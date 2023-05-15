@@ -1,0 +1,92 @@
+.header {
+  background-color: black;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logoCall {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
+li {
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.header .phone {
+  color: red;
+  font-size: 2rem;
+}
+.header .ics {
+  color: white;
+  font-size: 1.5rem;
+}
+.cartIcon{
+  position: relative;
+}
+.redCycle{
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: rgb(184, 11, 11);
+}
+.menu {
+  display: none;
+}
+@media (max-width: 700px) {
+  .pages {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .header nav {
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+  .logoCall {
+    width: 50%;
+    gap: 10px;
+  }
+  .header .phone {
+    font-size: 1.5rem;
+  }
+  .logoCall img {
+    width: 3rem;
+  }
+  .active.pages {
+    display: flex;
+    width: 100%;
+    order: 2;
+    justify-content: center;
+    z-index: 100;
+  }
+  .icons {
+    width: 50%;
+    justify-content: flex-end;
+  }
+  .header .phone {
+    display: none;
+  }
+}

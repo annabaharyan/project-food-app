@@ -1,0 +1,15 @@
+.contacts{
+  margin: 150px auto;
+}
+.contacts {
+  text-align: center;
+  padding: 20px;
+}
+.contacts h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.contacts p {
+  font-style: italic;
+}
+

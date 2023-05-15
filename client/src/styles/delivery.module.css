@@ -1,0 +1,22 @@
+.main {
+  padding: 20px;
+}
+.main > h1 {
+  text-align: center;
+}
+.main ol > li {
+  list-style-type: decimal;
+}
+.main ol > li > strong {
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-right: 3px;
+}
+.main ul {
+  display: flex;
+  flex-direction: column;
+}
+.main ul > li {
+  list-style-type: disc;
+}

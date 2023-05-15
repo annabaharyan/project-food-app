@@ -1,0 +1,324 @@
+{
+  "products": [
+    {
+      "itemId": 10000,
+      "name": "Չուկա Մակի",
+      "desc": "Չուկա",
+      "price": "1900",
+      "url": "maki/avokado.jpg",
+      "categoryId": 1,
+      "subCategory": "Մակի"
+    },
+    {
+      "itemId": 10001,
+      "name": "Ավոկադո Մակի",
+      "desc": "Ավոկադո",
+      "price": "1800",
+      "url": "maki/chuka.jpg",
+      "categoryId": 1,
+      "subCategory": "Մակի"
+    },
+    {
+      "itemId": 10002,
+      "name": "Էբի Տոբիկո",
+      "desc": "Մանրածովախեցգետին, կարմիր տոբիկո",
+      "price": "3600",
+      "url": "maki/tobiko.jpg",
+      "categoryId": 1,
+      "subCategory": "Մակի"
+    },
+    {
+      "itemId": 10003,
+      "name": "ԽՈՇԻ ՄԱԿԻ",
+      "desc": "Ծխեցված սաղմոն, պանիր, վարունգ",
+      "price": "3600",
+      "url": "maki/xoshi.jpg",
+      "categoryId": 1,
+      "subCategory": "Մակի"
+    },
+    {
+      "itemId": 10004,
+      "name": "ՅԱՍԱՅԻ ՄԱԿԻ",
+      "desc": "Բուլղարական պղպեղ, գազար, վարունգ",
+      "price": "1800",
+      "url": "maki/yasayi.jpg",
+      "categoryId": 1,
+      "subCategory": "Մակի"
+    },
+    {
+      "itemId": 10005,
+      "name": "ՏԵԿԿԱ ՄԱԿԻ",
+      "desc": "Թունա",
+      "price": "3600",
+      "url": "maki/tekka.jpg",
+      "categoryId": 1,
+      "subCategory": "Մակի"
+    },
+    {
+      "itemId": 10006,
+      "name": "ԿԱԼԻՖՈՐՆԻԱ ՍՅԱԿԵ",
+      "desc": "Վարունգ, ավոկադո, սաղմոն, տոբիկո",
+      "price": "5400",
+      "url": "classic/calif-sake.jpg",
+      "categoryId": 1,
+      "subCategory": "Կլասիկ ռոլլեր"
+    },
+    {
+      "itemId": 10007,
+      "name": "ԲՈՆԻՏՈ",
+      "desc": "Սաղմոն, պանիր, վարունգ, թունայի փաթիլներ ",
+      "price": "4900",
+      "url": "classic/bonito.jpg",
+      "categoryId": 1,
+      "subCategory": "Կլասիկ ռոլլեր"
+    },
+    {
+      "itemId": 10008,
+      "name": "ԿԱՆԱԴԱ",
+      "desc": "Սաղմոն, օձաձուկ, ավոկադո, պանիր, քունջութ",
+      "price": "7800",
+      "url": "classic/canada.jpg",
+      "categoryId": 1,
+      "subCategory": "Կլասիկ ռոլլեր"
+    },
+    {
+      "itemId": 10009,
+      "name": "ԲԱՆՋԱՐԵՂԵՆԱՅԻՆ ՌՈԼԼ",
+      "desc": "Լոլիկ, գազար, վարունգ, բուլղարական պղպեղ",
+      "price": "2600",
+      "url": "classic/vegan.jpg",
+      "categoryId": 1,
+      "subCategory": "Կլասիկ ռոլլեր"
+    },
+    {
+      "itemId": 10010,
+      "name": "ԿԱՆԱԴԱ",
+      "desc": "Սաղմոն, օձաձուկ, ավոկադո, պանիր, քունջութ",
+      "price": "7800",
+      "url": "classic/canada.jpg",
+      "categoryId": 1,
+      "subCategory": "Կլասիկ ռոլլեր"
+    },
+    {
+      "itemId": 10011,
+      "name": "ՈՍԿԵ ԴՐԱԳՈՆ",
+      "desc": "Ծովախեցգետին, սաղմոն, ավոկադո, պանիր",
+      "price": "4200",
+      "url": "classic/gold-dragon.jpg",
+      "categoryId": 1,
+      "subCategory": "Կլասիկ ռոլլեր"
+    },
+    {
+      "itemId": 10012,
+      "name": "ԿԻՈՒ ՏԵՐԻՅԱԿԻ",
+      "desc": "Սաղմոն, կիվի, պանիր, վարունգ, տերիյակի սոուս",
+      "price": "5900",
+      "url": "hot/kiu.jpg",
+      "categoryId": 1,
+      "subCategory": "Տաք ռոլլեր"
+    },
+    {
+      "itemId": 10013,
+      "name": "ՎՈՒԼԿԱՆ",
+      "desc": "Պանիր, վարունգ, օձաձուկ, քունջութ, քունջութի սոուս ",
+      "price": "5400",
+      "url": "hot/vulkan.jpg",
+      "categoryId": 1,
+      "subCategory": "Տաք ռոլլեր"
+    },
+    {
+      "itemId": 10014,
+      "name": "ՖԻԼԱԴԵԼՖԻԱ ԳՐԻԼ",
+      "desc": "Պանիր, վարունգ, սաղմոն",
+      "price": "7200",
+      "url": "hot/filadelfia-gril.jpg",
+      "categoryId": 1,
+      "subCategory": "Տաք ռոլլեր"
+    },
+    {
+      "itemId": 10015,
+      "name": "ԿԻՐՈ ՆՈՒՇԻ",
+      "desc": "Ավոկադո,մանրածովախեցգետին, ծովախեցգետին, պանիր Վիոլա",
+      "price": "4800",
+      "url": "hot/kiro.jpg",
+      "categoryId": 1,
+      "subCategory": "Տաք ռոլլեր"
+    },
+    {
+      "itemId": 10016,
+      "name": "ԹԱՅԼԱՆԴԱԿԱՆ ԱՂՑԱՆ",
+      "desc": "Հորթի միս, բրոկկոլի, սպանախ, բուլղարական պղպեղ, քունջութ, բազուկի ճավ",
+      "price": "5600 ",
+      "url": "salat/tailand.jpg",
+      "categoryId": 2,
+      "subCategory": "Աղցաններ"
+    },
+    {
+      "itemId": 10017,
+      "name": "ԱՂՑԱՆ ՍՈՅԱՅԻ ԾԻԼԵՐՈՎ",
+      "desc": "Սոյայի ծիլեր, վարունգ, գազար",
+      "price": "3300",
+      "url": "salat/soya.jpg",
+      "categoryId": 2,
+      "subCategory": "Աղցաններ"
+    },
+    {
+      "itemId": 100018,
+      "name": "ՖԸՆ-ՍԵ",
+      "desc": "Հավի կրծքամիս, ֆունչոզա, գազար, վարունգ",
+      "price": "3400",
+      "url": "salat/fyn-se.jpg",
+      "categoryId": 2,
+      "subCategory": "Աղցաններ"
+    },
+    {
+      "itemId": 10019,
+      "name": "ԱՂՑԱՆ ՀՈՐԹԻ ՖԻԼԵՈՎ",
+      "desc": "Հորթի միս, բուլղարական պղպեղ, համեմ, քունջութ, սոխ",
+      "price": "5600",
+      "url": "salat/meat.jpg",
+      "categoryId": 2,
+      "subCategory": "Աղցաններ"
+    },
+    {
+      "itemId": 10020,
+      "name": "ՈՒԹՈՏՆՈՒԿ ԹԱՎԱՅԻ ՎՐԱ",
+      "desc": "Ութոտնուկ, բրոկկոլի, բուլղարական պղպեղ, կանաչ սոխ",
+      "price": "8900 ",
+      "url": "sea/octopus.jpg",
+      "categoryId": 2,
+      "subCategory": "Ծովամթերքով ուտեստներ"
+    },
+    {
+      "itemId": 10021,
+      "name": "ԳՈՐՏԻ ԹԱԹԻԿՆԵՐ ԹԱՎԱՅԻ ՎՐԱ",
+      "desc": "Գորտ, սև սունկ, բուլղարական պղպեղ, սոխ",
+      "price": "9200 ",
+      "url": "sea/frog.jpg",
+      "categoryId": 2,
+      "subCategory": "Ծովամթերքով ուտեստներ"
+    },
+    {
+      "itemId": 100022,
+      "name": "ՄԱՆՐԱԾՈՎԱԽԵՑԳԵՏԻՆ ՊԱՏՅԱՆՈՎ ԹԱՎԱՅԻ ՎՐԱ",
+      "desc": "Մանրածովախեցգետին, բուլղարական պղպեղ, սոխ, սխտոր",
+      "price": "10800 ",
+      "url": "sea/rak.jpg",
+      "categoryId": 2,
+      "subCategory": "Ծովամթերքով ուտեստներ"
+    },
+    {
+      "itemId": 10024,
+      "name": "COCA COLA",
+      "desc": "",
+      "price": "500 ",
+      "url": "drink/cola.jpg",
+      "categoryId": 3,
+      "subCategory": "Ոչ ալկոհոլային խմիչքներ"
+    },
+    {
+      "itemId": 10025,
+      "name": "FANTA",
+      "desc": "",
+      "price": "9200 ",
+      "url": "drink/fanta.jpg",
+      "categoryId": 3,
+      "subCategory": "Ոչ ալկոհոլային խմիչքներ"
+    },
+    {
+      "itemId": 100026,
+      "name": "ՑԻՏՐՈՒՍԱՅԻՆ",
+      "desc": "0․5Լ։ Նարինջ, թուրինջ, կիտրոն, լայմ",
+      "price": "1400",
+      "url": "drink/citrus.jpg",
+      "categoryId": 3,
+      "subCategory": "Ոչ ալկոհոլային խմիչքներ"
+    },
+    {
+      "itemId": 10027,
+      "name": "ԹՈՒՐԻՆՋԻ ԹԱՐՄ ՔԱՄԱԾ ՀՅՈՒԹ",
+      "desc": "250մլ",
+      "price": "1800",
+      "url": "drink/grape.jpg",
+      "categoryId": 3,
+      "subCategory": "Ոչ ալկոհոլային խմիչքներ"
+    },
+    {
+      "itemId": 10028,
+      "name": "ՀԱՏԱՊՏՂԱՅԻՆ",
+      "desc": "0.5Լ։ Թարմ հատապտուղներ, կիտրոն",
+      "price": "1400",
+      "url": "drink/barry.jpg",
+      "categoryId": 3,
+      "subCategory": "Ոչ ալկոհոլային խմիչքներ"
+    },
+    {
+      "itemId": 10029,
+      "name": "ԴՐԱԳՈՆ ԳԱՐԴԵՆ ԿԱՐՄԻՐ ԳԻՆԻ (ԲԱԼ)",
+      "desc": "",
+      "price": "8500",
+      "url": "drink/red-cherry.jpg",
+      "categoryId": 3,
+      "subCategory": "Ալկոհոլային խմիչքներ"
+    },
+    {
+      "itemId": 10030,
+      "name": "ԴՐԱԳՈՆ ԳԱՐԴԵՆ ԴԱՍԱԿԱՆ ԿԱՐՄԻՐ ԳԻՆԻ",
+      "desc": "",
+      "price": "8500 ",
+      "url": "drink/red-classic.jpg",
+      "categoryId": 3,
+      "subCategory": "Ալկոհոլային խմիչքներ"
+    }
+  ],
+  "slider": {
+    "imageUrl": [
+      "homeImages/slider1.jpg",
+      "homeImages/slider2.jpg"
+    ],
+    "offers": [
+      {
+        "itemId": 1000100,
+        "name": "ՀԱՎ ՇԱՄՊԻՆԻՈՆՈՎ Կ.Թ.Ք. ՍՈՈՒՍԻ ՄԵՋ՝ ԿՐԱԿԻ ՎՐԱ",
+        "desc": "Հավի կրծքամիս, շամպինիոն, չիլի ",
+        "price": "5600",
+        "url": "homeImages/prod1.jpg"
+      },
+      {
+        "itemId": 10001002,
+        "name": "ՍԵԹ ԴՌԱԳՈՆ ԳԱՐԴԵՆ",
+        "desc": "Ֆիլադելֆիա կլասիկ, ֆիլադելֆիա դելյուքս, կալիֆորնիա սյակե, սյակե մակի,սյակե նիգիրի",
+        "price": "26300",
+        "url": "homeImages/prod2.jpg"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": 1,
+      "category": "ՃԱՊՈՆԱԿԱՆ",
+      "subCategory": [
+        "Մակի",
+        "Կլասիկ ռոլլեր",
+        "Տաք ռոլլեր"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "ՉԻՆԱԿԱՆ",
+      "subCategory": [
+        "Աղցաններ",
+        "Ծովամթերքով ուտեստներ"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "ԲԱՐ",
+      "subCategory": [
+        "Ոչ ալկոհոլային խմիչքներ",
+        "Ալկոհոլային խմիչքներ"
+      ]
+    }
+  ],
+  "orders": []
+}
