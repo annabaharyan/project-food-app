@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { MainURL } from "../url";
 import Product from "./Product";
 import styles from "../styles/home.module.css";
 import HomeSlider from "./HomeSlider";
@@ -7,7 +6,7 @@ export default function HomeInfo() {
   const [prods, setprods] = useState({});
   useEffect(() => {
     try {
-      fetch(`${MainURL}/slider`)
+      fetch(`/slider`)
         .then((resp) => resp.json())
         .then((data) => setprods(data));
     } catch (error) {

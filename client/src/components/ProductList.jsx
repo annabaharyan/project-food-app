@@ -10,9 +10,9 @@ export default function ProductList({ id, setId, group }) {
   const bar = [styles.categories, styles.bar].join(" ");
   useEffect(() => {
     try {
-      fetch(`${MainURL}/categories/${id}`)
+      fetch(`/categories/${id}`)
         .then((resp) => resp.json())
-        .then((data) => setProdList(data.subCategory))
+        .then((data) => setProdList(data[0].subCategory))
         .catch((err) => setErr(err.message));
     } catch (error) {
       console.log(error.message);
@@ -28,7 +28,10 @@ export default function ProductList({ id, setId, group }) {
       {prodList &&
         prodList.map((elem) => (
           <li key={`${elem}${Math.random() * 5}`}>
-            <Link to={`/products/${id}/${group}/${elem}`} onClick={() => setId()}>
+            <Link
+              to={`/products/${id}/${group}/${elem}`}
+              onClick={() => setId()}
+            >
               {elem}
             </Link>
           </li>

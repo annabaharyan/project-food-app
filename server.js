@@ -14,6 +14,11 @@ app.get("/categories", (req, res) => {
     .readFile(path.resolve("data.json"), "utf8")
     .then((data) => res.send(JSON.parse(data).categories));
 });
+app.get("/slider", (req, res) => {
+  fs.promises
+    .readFile(path.resolve("data.json"), "utf8")
+    .then((data) => res.send(JSON.parse(data).slider));
+});
 app.get("/products/category", (req, res) => {
   const categoryId = +req.query.categoryId;
   fs.promises
@@ -21,6 +26,13 @@ app.get("/products/category", (req, res) => {
     .then((data) =>
       JSON.parse(data).products.filter((elem) => elem.categoryId === categoryId)
     )
+    .then((result) => res.send(result));
+});
+app.get("/categories/:id", (req, res) => {
+  const { id } = req.params;
+  fs.promises
+    .readFile(path.resolve("data.json"), "utf8")
+    .then((data) => JSON.parse(data).categories.filter((cat) => cat.id === +id))
     .then((result) => res.send(result));
 });
 app.get("/products/subcategory", (req, res) => {

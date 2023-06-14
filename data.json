@@ -320,5 +320,17 @@
       ]
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "itemId": 100026,
+      "name": "ՑԻՏՐՈՒՍԱՅԻՆ",
+      "desc": "0․5Լ։ Նարինջ, թուրինջ, կիտրոն, լայմ",
+      "price": "1400",
+      "url": "drink/citrus.jpg",
+      "categoryId": 3,
+      "subCategory": "Ոչ ալկոհոլային խմիչքներ",
+      "count": 2,
+      "otherInfo": ""
+    }
+  ]
 }
